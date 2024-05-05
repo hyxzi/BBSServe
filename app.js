@@ -9,7 +9,9 @@ const RedisStore = require('connect-redis')(session)
 
 // var indexRouter = require('./routes/index');
 // var usersRouter = require('./routes/users');
+// 文章表
 const blogRouter = require('./routes/blog')
+// 用户表
 const userRouter = require('./routes/user')
 
 var app = express();
